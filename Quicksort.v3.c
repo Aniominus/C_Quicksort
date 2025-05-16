@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include <time.h>
 
 void swap(int* a, int* b) {
@@ -37,7 +38,7 @@ void printArray(int arr[], int size){
 
 int main(){
 
-   long int n = 200000000;
+   long int n = 300000000;
    int *arr = (int*)malloc(n * sizeof(int));
    srand(0);
    long int i;
